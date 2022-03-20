@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.0.31912.275
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31624.102
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{65010991-90CE-434E-A6F7-543FB123DA6B}"
 EndProject
@@ -17,7 +17,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Basket.API", "Services\Bask
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Discount", "Discount", "{D35AE0AB-B9EB-4FA2-9929-5C5EE27AB6DB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Discount.API", "Services\Discount\Discount.API\Discount.API.csproj", "{72987AD8-4578-4237-9489-300D4756EA41}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Discount.API", "Services\Discount\Discount.API\Discount.API.csproj", "{72987AD8-4578-4237-9489-300D4756EA41}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Discount.Grpc", "Services\Discount\Discount.Grpc\Discount.Grpc.csproj", "{2F64ADA1-4D7B-44B8-923D-E10A4C0193EF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,6 +43,10 @@ Global
 		{72987AD8-4578-4237-9489-300D4756EA41}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{72987AD8-4578-4237-9489-300D4756EA41}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{72987AD8-4578-4237-9489-300D4756EA41}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F64ADA1-4D7B-44B8-923D-E10A4C0193EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F64ADA1-4D7B-44B8-923D-E10A4C0193EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F64ADA1-4D7B-44B8-923D-E10A4C0193EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F64ADA1-4D7B-44B8-923D-E10A4C0193EF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -52,6 +58,7 @@ Global
 		{DD0EAF49-9CF4-4E76-9719-D6224B253010} = {74B91066-110C-4A0D-99E1-13557195CB2A}
 		{D35AE0AB-B9EB-4FA2-9929-5C5EE27AB6DB} = {65010991-90CE-434E-A6F7-543FB123DA6B}
 		{72987AD8-4578-4237-9489-300D4756EA41} = {D35AE0AB-B9EB-4FA2-9929-5C5EE27AB6DB}
+		{2F64ADA1-4D7B-44B8-923D-E10A4C0193EF} = {D35AE0AB-B9EB-4FA2-9929-5C5EE27AB6DB}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E0B9E43E-D676-4D45-A8E7-710DC57C7C7A}
